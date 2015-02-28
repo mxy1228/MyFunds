@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:divider="@drawable/linearlayout_divider_h"
+    android:background="@color/color2"
+    android:showDividers="middle"
+    android:gravity="center_vertical"
+    android:padding="5.0dip"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_weight="2.0"
+        android:orientation="vertical"
+        android:divider="@drawable/linearlayout_divider_v"
+        android:showDividers="middle"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fund_list_item_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:text="AAAAAAA（12345）"/>
+
+        <TextView
+            android:id="@+id/fund_list_item_average_rate_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:text="1.5234"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/fund_list_item_profit_tv"
+        android:layout_width="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="123456"/>
+
+    <TextView
+        android:id="@+id/fund_list_item_profit_rate_tv"
+        android:layout_width="0.0dip"
+        android:layout_weight="1.0"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="12.3%"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyFunds</string>
+
+    <string name="buy">申购</string>
+    <string name="sell">赎回</string>
+    <string name="total_buy">总成本：%1$s</string>
+    <string name="total_profit">总盈亏：%1$s</string>
+    <string name="lv_empty_hint">没有基金记录</string>
+    <string name="search_et_hint">请输入基金代号</string>
+    <string name="save">保存</string>
+
+    <string name="list_item_name">%1$s(%2$s)</string>
+</resources>

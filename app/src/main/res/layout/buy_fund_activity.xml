@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10.0dip"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/buy_fund_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="名称"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日期"/>
+
+        <EditText
+            android:id="@+id/buy_fund_date_et"
+            android:layout_width="0.0dip"
+            android:layout_weight="1.0"
+            android:inputType="date"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="净值"/>
+
+        <EditText
+            android:id="@+id/buy_fund_drate_et"
+            android:layout_width="0.0dip"
+            android:layout_weight="1.0"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金额"/>
+
+        <EditText
+            android:id="@+id/buy_fund_cost_et"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手续费"/>
+
+        <EditText
+            android:id="@+id/buy_fund_charge_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60.0dip"
+            android:inputType="numberDecimal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:text="份额"/>
+
+        <EditText
+            android:id="@+id/buy_fund_portion_et"
+            android:layout_width="wrap_content"
+            android:inputType="numberDecimal"
+            android:minWidth="100.0dip"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buy_fund_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/save"/>
+</LinearLayout>
